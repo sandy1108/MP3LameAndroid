@@ -1,0 +1,3 @@
+rootProject.name='MP3LameAndroidTest'
+include ':app'
+include ':mp3lame'

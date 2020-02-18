@@ -1,0 +1,170 @@
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/lame.c:641:13: warning: using floating point absolute value function 'fabs' when argument is of integer type [-Wabsolute-value]
+        if (EQ(gfp->compression_ratio, 0))
+            ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/machine.h:170:12: note: expanded from macro 'EQ'
+(fabs(a) > fabs(b)) \
+           ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/lame.c:641:13: warning: using floating point absolute value function 'fabs' when argument is of integer type [-Wabsolute-value]
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/machine.h:172:23: note: expanded from macro 'EQ'
+ : (fabs((a)-(b)) <= (fabs(b) * 1e-6f)))
+                      ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/lame.c:1606:13: warning: using floating point absolute value function 'fabs' when argument is of integer type [-Wabsolute-value]
+        if (NEQ(RadioGain, GAIN_NOT_ENOUGH_SAMPLES)) {
+            ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/machine.h:177:20: note: expanded from macro 'NEQ'
+#define NEQ(a,b) (!EQ(a,b))
+                   ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/machine.h:170:12: note: expanded from macro 'EQ'
+(fabs(a) > fabs(b)) \
+           ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/lame.c:1606:13: warning: using floating point absolute value function 'fabs' when argument is of integer type [-Wabsolute-value]
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/machine.h:177:20: note: expanded from macro 'NEQ'
+#define NEQ(a,b) (!EQ(a,b))
+                   ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/machine.h:172:23: note: expanded from macro 'EQ'
+ : (fabs((a)-(b)) <= (fabs(b) * 1e-6f)))
+                      ^
+4 warnings generated.
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/presets.c:170:5: warning: using floating point absolute value function 'fabs' when argument is of integer type [-Wabsolute-value]
+    SET_OPTION(quant_comp, set->quant_comp, -1);
+    ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/presets.c:36:16: note: expanded from macro 'SET_OPTION'
+    else if (!(fabs(lame_get_##opt(gfp) - def) > 0)) \
+               ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/presets.c:171:5: warning: using floating point absolute value function 'fabs' when argument is of integer type [-Wabsolute-value]
+    SET_OPTION(quant_comp_short, set->quant_comp_s, -1);
+    ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/presets.c:36:16: note: expanded from macro 'SET_OPTION'
+    else if (!(fabs(lame_get_##opt(gfp) - def) > 0)) \
+               ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/presets.c:284:5: warning: using floating point absolute value function 'fabs' when argument is of integer type [-Wabsolute-value]
+    SET_OPTION(quant_comp, abr_switch_map[r].quant_comp, -1);
+    ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/presets.c:36:16: note: expanded from macro 'SET_OPTION'
+    else if (!(fabs(lame_get_##opt(gfp) - def) > 0)) \
+               ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/presets.c:285:5: warning: using floating point absolute value function 'fabs' when argument is of integer type [-Wabsolute-value]
+    SET_OPTION(quant_comp_short, abr_switch_map[r].quant_comp_s, -1);
+    ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/presets.c:36:16: note: expanded from macro 'SET_OPTION'
+    else if (!(fabs(lame_get_##opt(gfp) - def) > 0)) \
+               ^
+4 warnings generated.
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:263:5: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    SHIFT_IN_BITS_VALUE(buffer[0], 8u, 0xffu);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:254:68: note: expanded from macro 'SHIFT_IN_BITS_VALUE'
+#define SHIFT_IN_BITS_VALUE(x,n,v) ( x = (x << (n)) | ( (v) & ~(-1 << (n)) ) )
+                                                                ~~ ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:265:5: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    SHIFT_IN_BITS_VALUE(buffer[1], 3u, 7);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:254:68: note: expanded from macro 'SHIFT_IN_BITS_VALUE'
+#define SHIFT_IN_BITS_VALUE(x,n,v) ( x = (x << (n)) | ( (v) & ~(-1 << (n)) ) )
+                                                                ~~ ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:266:5: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    SHIFT_IN_BITS_VALUE(buffer[1], 1u, (cfg->samplerate_out < 16000) ? 0 : 1);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:254:68: note: expanded from macro 'SHIFT_IN_BITS_VALUE'
+#define SHIFT_IN_BITS_VALUE(x,n,v) ( x = (x << (n)) | ( (v) & ~(-1 << (n)) ) )
+                                                                ~~ ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:267:5: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    SHIFT_IN_BITS_VALUE(buffer[1], 1u, cfg->version);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:254:68: note: expanded from macro 'SHIFT_IN_BITS_VALUE'
+#define SHIFT_IN_BITS_VALUE(x,n,v) ( x = (x << (n)) | ( (v) & ~(-1 << (n)) ) )
+                                                                ~~ ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:268:5: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    SHIFT_IN_BITS_VALUE(buffer[1], 2u, 4 - 3);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:254:68: note: expanded from macro 'SHIFT_IN_BITS_VALUE'
+#define SHIFT_IN_BITS_VALUE(x,n,v) ( x = (x << (n)) | ( (v) & ~(-1 << (n)) ) )
+                                                                ~~ ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:269:5: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    SHIFT_IN_BITS_VALUE(buffer[1], 1u, (!cfg->error_protection) ? 1 : 0);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:254:68: note: expanded from macro 'SHIFT_IN_BITS_VALUE'
+#define SHIFT_IN_BITS_VALUE(x,n,v) ( x = (x << (n)) | ( (v) & ~(-1 << (n)) ) )
+                                                                ~~ ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:271:5: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    SHIFT_IN_BITS_VALUE(buffer[2], 4u, eov->bitrate_index);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:254:68: note: expanded from macro 'SHIFT_IN_BITS_VALUE'
+#define SHIFT_IN_BITS_VALUE(x,n,v) ( x = (x << (n)) | ( (v) & ~(-1 << (n)) ) )
+                                                                ~~ ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:272:5: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    SHIFT_IN_BITS_VALUE(buffer[2], 2u, cfg->samplerate_index);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:254:68: note: expanded from macro 'SHIFT_IN_BITS_VALUE'
+#define SHIFT_IN_BITS_VALUE(x,n,v) ( x = (x << (n)) | ( (v) & ~(-1 << (n)) ) )
+                                                                ~~ ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:273:5: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    SHIFT_IN_BITS_VALUE(buffer[2], 1u, 0);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:254:68: note: expanded from macro 'SHIFT_IN_BITS_VALUE'
+#define SHIFT_IN_BITS_VALUE(x,n,v) ( x = (x << (n)) | ( (v) & ~(-1 << (n)) ) )
+                                                                ~~ ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:274:5: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    SHIFT_IN_BITS_VALUE(buffer[2], 1u, cfg->extension);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:254:68: note: expanded from macro 'SHIFT_IN_BITS_VALUE'
+#define SHIFT_IN_BITS_VALUE(x,n,v) ( x = (x << (n)) | ( (v) & ~(-1 << (n)) ) )
+                                                                ~~ ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:276:5: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    SHIFT_IN_BITS_VALUE(buffer[3], 2u, cfg->mode);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:254:68: note: expanded from macro 'SHIFT_IN_BITS_VALUE'
+#define SHIFT_IN_BITS_VALUE(x,n,v) ( x = (x << (n)) | ( (v) & ~(-1 << (n)) ) )
+                                                                ~~ ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:277:5: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    SHIFT_IN_BITS_VALUE(buffer[3], 2u, eov->mode_ext);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:254:68: note: expanded from macro 'SHIFT_IN_BITS_VALUE'
+#define SHIFT_IN_BITS_VALUE(x,n,v) ( x = (x << (n)) | ( (v) & ~(-1 << (n)) ) )
+                                                                ~~ ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:278:5: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    SHIFT_IN_BITS_VALUE(buffer[3], 1u, cfg->copyright);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:254:68: note: expanded from macro 'SHIFT_IN_BITS_VALUE'
+#define SHIFT_IN_BITS_VALUE(x,n,v) ( x = (x << (n)) | ( (v) & ~(-1 << (n)) ) )
+                                                                ~~ ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:279:5: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    SHIFT_IN_BITS_VALUE(buffer[3], 1u, cfg->original);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:254:68: note: expanded from macro 'SHIFT_IN_BITS_VALUE'
+#define SHIFT_IN_BITS_VALUE(x,n,v) ( x = (x << (n)) | ( (v) & ~(-1 << (n)) ) )
+                                                                ~~ ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:280:5: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    SHIFT_IN_BITS_VALUE(buffer[3], 2u, cfg->emphasis);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:254:68: note: expanded from macro 'SHIFT_IN_BITS_VALUE'
+#define SHIFT_IN_BITS_VALUE(x,n,v) ( x = (x << (n)) | ( (v) & ~(-1 << (n)) ) )
+                                                                ~~ ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./libmp3lame/VbrTag.c:430:23: warning: comparison of array 'pTagData->toc' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+        if (pTagData->toc != NULL) {
+            ~~~~~~~~~~^~~    ~~~~
+16 warnings generated.
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./jni_wrapper.c:71:17: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        while (nb_read = read_samples(input_file, input)) {
+               ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./jni_wrapper.c:71:17: note: place parentheses around the assignment to silence this warning
+        while (nb_read = read_samples(input_file, input)) {
+                       ^
+               (                                        )
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./jni_wrapper.c:71:17: note: use '==' to turn this assignment into an equality comparison
+        while (nb_read = read_samples(input_file, input)) {
+                       ^
+                       ==
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./jni_wrapper.c:72:62: warning: passing 'char [8192]' to parameter of type 'unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                nb_write = lame_encode_buffer(lame, input, input, nb_read, output,
+                                                                           ^~~~~~
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/libmp3lame/lame.h:721:29: note: passing argument to parameter 'mp3buf' here
+        unsigned char*      mp3buf,        /* pointer to encoded MP3 stream */
+                            ^
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/./jni_wrapper.c:79:37: warning: passing 'char [8192]' to parameter of type 'unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        nb_write = lame_encode_flush(lame, output, BUFFER_SIZE);
+                                           ^~~~~~
+G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni/libmp3lame/lame.h:877:30: note: passing argument to parameter 'mp3buf' here
+        unsigned char*       mp3buf, /* pointer to encoded MP3 stream         */
+                             ^
+3 warnings generated.

@@ -1,0 +1,22 @@
+[armeabi-v7a] Compile thumb  : mp3lame <= bitstream.c
+[armeabi-v7a] Compile thumb  : mp3lame <= encoder.c
+[armeabi-v7a] Compile thumb  : mp3lame <= fft.c
+[armeabi-v7a] Compile thumb  : mp3lame <= gain_analysis.c
+[armeabi-v7a] Compile thumb  : mp3lame <= id3tag.c
+[armeabi-v7a] Compile thumb  : mp3lame <= lame.c
+[armeabi-v7a] Compile thumb  : mp3lame <= mpglib_interface.c
+[armeabi-v7a] Compile thumb  : mp3lame <= newmdct.c
+[armeabi-v7a] Compile thumb  : mp3lame <= presets.c
+[armeabi-v7a] Compile thumb  : mp3lame <= psymodel.c
+[armeabi-v7a] Compile thumb  : mp3lame <= quantize.c
+[armeabi-v7a] Compile thumb  : mp3lame <= quantize_pvt.c
+[armeabi-v7a] Compile thumb  : mp3lame <= reservoir.c
+[armeabi-v7a] Compile thumb  : mp3lame <= set_get.c
+[armeabi-v7a] Compile thumb  : mp3lame <= tables.c
+[armeabi-v7a] Compile thumb  : mp3lame <= takehiro.c
+[armeabi-v7a] Compile thumb  : mp3lame <= util.c
+[armeabi-v7a] Compile thumb  : mp3lame <= vbrquantize.c
+[armeabi-v7a] Compile thumb  : mp3lame <= VbrTag.c
+[armeabi-v7a] Compile thumb  : mp3lame <= version.c
+[armeabi-v7a] Compile thumb  : mp3lame <= jni_wrapper.c
+[armeabi-v7a] SharedLibrary  : libmp3lame.so

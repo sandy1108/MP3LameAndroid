@@ -1,0 +1,22 @@
+[arm64-v8a] Compile        : mp3lame <= bitstream.c
+[arm64-v8a] Compile        : mp3lame <= encoder.c
+[arm64-v8a] Compile        : mp3lame <= fft.c
+[arm64-v8a] Compile        : mp3lame <= gain_analysis.c
+[arm64-v8a] Compile        : mp3lame <= id3tag.c
+[arm64-v8a] Compile        : mp3lame <= lame.c
+[arm64-v8a] Compile        : mp3lame <= mpglib_interface.c
+[arm64-v8a] Compile        : mp3lame <= newmdct.c
+[arm64-v8a] Compile        : mp3lame <= presets.c
+[arm64-v8a] Compile        : mp3lame <= psymodel.c
+[arm64-v8a] Compile        : mp3lame <= quantize.c
+[arm64-v8a] Compile        : mp3lame <= quantize_pvt.c
+[arm64-v8a] Compile        : mp3lame <= reservoir.c
+[arm64-v8a] Compile        : mp3lame <= set_get.c
+[arm64-v8a] Compile        : mp3lame <= tables.c
+[arm64-v8a] Compile        : mp3lame <= takehiro.c
+[arm64-v8a] Compile        : mp3lame <= util.c
+[arm64-v8a] Compile        : mp3lame <= vbrquantize.c
+[arm64-v8a] Compile        : mp3lame <= VbrTag.c
+[arm64-v8a] Compile        : mp3lame <= version.c
+[arm64-v8a] Compile        : mp3lame <= jni_wrapper.c
+[arm64-v8a] SharedLibrary  : libmp3lame.so

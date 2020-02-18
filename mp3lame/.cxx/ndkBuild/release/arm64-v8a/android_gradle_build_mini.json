@@ -1,0 +1,17 @@
+{
+  "buildFiles": [
+    "G:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\Android.mk"
+  ],
+  "cleanCommands": [
+    "I:\\0.DeveloperTools\\Android-SDK\\ndk\\16.1.4479499\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dG:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\Android.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dG:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dG:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "buildTargetsCommand": "I:\\0.DeveloperTools\\Android-SDK\\ndk\\16.1.4479499\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dG:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\Android.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dG:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dG:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\build\\intermediates\\ndkBuild\\release\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "mp3lame-release-arm64-v8a": {
+      "artifactName": "mp3lame",
+      "buildCommand": "I:\\0.DeveloperTools\\Android-SDK\\ndk\\16.1.4479499\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dG:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\Android.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dG:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dG:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\build\\intermediates\\ndkBuild\\release\\lib G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libmp3lame.so",
+      "abi": "arm64-v8a",
+      "output": "G:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\build\\intermediates\\ndkBuild\\release\\obj\\local\\arm64-v8a\\libmp3lame.so"
+    }
+  }
+}

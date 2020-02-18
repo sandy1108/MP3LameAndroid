@@ -1,0 +1,113 @@
+{
+  "buildFiles": [
+    "G:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\Android.mk"
+  ],
+  "cleanCommands": [
+    "I:\\0.DeveloperTools\\Android-SDK\\ndk\\16.1.4479499\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dG:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\Android.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dG:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dG:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "buildTargetsCommand": "I:\\0.DeveloperTools\\Android-SDK\\ndk\\16.1.4479499\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dG:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\Android.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dG:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dG:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\build\\intermediates\\ndkBuild\\debug\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "mp3lame-debug-arm64-v8a": {
+      "buildCommand": "I:\\0.DeveloperTools\\Android-SDK\\ndk\\16.1.4479499\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dG:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\Android.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dG:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dG:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\build\\intermediates\\ndkBuild\\debug\\lib G:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libmp3lame.so",
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "mp3lame",
+      "files": [
+        {
+          "src": "G:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\.\\jni_wrapper.c",
+          "flags": "-gcc-toolchain I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IG:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni -DANDROID -DSTDC_HEADERS -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot -isystem I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "G:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\.\\libmp3lame\\VbrTag.c",
+          "flags": "-gcc-toolchain I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IG:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni -DANDROID -DSTDC_HEADERS -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot -isystem I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "G:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\.\\libmp3lame\\bitstream.c",
+          "flags": "-gcc-toolchain I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IG:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni -DANDROID -DSTDC_HEADERS -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot -isystem I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "G:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\.\\libmp3lame\\encoder.c",
+          "flags": "-gcc-toolchain I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IG:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni -DANDROID -DSTDC_HEADERS -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot -isystem I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "G:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\.\\libmp3lame\\fft.c",
+          "flags": "-gcc-toolchain I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IG:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni -DANDROID -DSTDC_HEADERS -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot -isystem I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "G:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\.\\libmp3lame\\gain_analysis.c",
+          "flags": "-gcc-toolchain I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IG:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni -DANDROID -DSTDC_HEADERS -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot -isystem I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "G:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\.\\libmp3lame\\id3tag.c",
+          "flags": "-gcc-toolchain I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IG:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni -DANDROID -DSTDC_HEADERS -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot -isystem I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "G:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\.\\libmp3lame\\lame.c",
+          "flags": "-gcc-toolchain I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IG:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni -DANDROID -DSTDC_HEADERS -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot -isystem I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "G:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\.\\libmp3lame\\mpglib_interface.c",
+          "flags": "-gcc-toolchain I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IG:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni -DANDROID -DSTDC_HEADERS -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot -isystem I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "G:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\.\\libmp3lame\\newmdct.c",
+          "flags": "-gcc-toolchain I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IG:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni -DANDROID -DSTDC_HEADERS -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot -isystem I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "G:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\.\\libmp3lame\\presets.c",
+          "flags": "-gcc-toolchain I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IG:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni -DANDROID -DSTDC_HEADERS -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot -isystem I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "G:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\.\\libmp3lame\\psymodel.c",
+          "flags": "-gcc-toolchain I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IG:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni -DANDROID -DSTDC_HEADERS -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot -isystem I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "G:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\.\\libmp3lame\\quantize.c",
+          "flags": "-gcc-toolchain I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IG:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni -DANDROID -DSTDC_HEADERS -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot -isystem I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "G:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\.\\libmp3lame\\quantize_pvt.c",
+          "flags": "-gcc-toolchain I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IG:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni -DANDROID -DSTDC_HEADERS -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot -isystem I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "G:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\.\\libmp3lame\\reservoir.c",
+          "flags": "-gcc-toolchain I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IG:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni -DANDROID -DSTDC_HEADERS -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot -isystem I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "G:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\.\\libmp3lame\\set_get.c",
+          "flags": "-gcc-toolchain I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IG:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni -DANDROID -DSTDC_HEADERS -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot -isystem I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "G:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\.\\libmp3lame\\tables.c",
+          "flags": "-gcc-toolchain I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IG:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni -DANDROID -DSTDC_HEADERS -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot -isystem I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "G:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\.\\libmp3lame\\takehiro.c",
+          "flags": "-gcc-toolchain I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IG:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni -DANDROID -DSTDC_HEADERS -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot -isystem I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "G:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\.\\libmp3lame\\util.c",
+          "flags": "-gcc-toolchain I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IG:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni -DANDROID -DSTDC_HEADERS -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot -isystem I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "G:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\.\\libmp3lame\\vbrquantize.c",
+          "flags": "-gcc-toolchain I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IG:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni -DANDROID -DSTDC_HEADERS -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot -isystem I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot/usr/include/aarch64-linux-android"
+        },
+        {
+          "src": "G:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\src\\main\\jni\\.\\libmp3lame\\version.c",
+          "flags": "-gcc-toolchain I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 -target aarch64-none-linux-android -ffunction-sections -funwind-tables -fstack-protector-strong -fpic -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -O0 -UNDEBUG -fno-limit-debug-info -IG:/AppCanWork/ASWorkSpace/MP3LameAndroidTest/mp3lame/src/main/jni -DANDROID -DSTDC_HEADERS -D__ANDROID_API__\u003d21 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot -isystem I:/0.DeveloperTools/Android-SDK/ndk/16.1.4479499/build//../sysroot/usr/include/aarch64-linux-android"
+        }
+      ],
+      "output": "G:\\AppCanWork\\ASWorkSpace\\MP3LameAndroidTest\\mp3lame\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\arm64-v8a\\libmp3lame.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-arm64-v8a": {
+      "cCompilerExecutable": "I:\\0.DeveloperTools\\Android-SDK\\ndk\\16.1.4479499\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}
